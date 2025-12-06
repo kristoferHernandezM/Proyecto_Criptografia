@@ -1,0 +1,118 @@
+## Proyecto Criptográfico — Algoritmo 
+
+Este proyecto implementa un **algoritmo criptográfico personalizado estilo Feistel**, con modo de operación **CTR**, estructura modular en Python y una **interfaz CLI**.  
+
+
+---
+
+## Características principales
+
+- ✔ Algoritmo Feistel de **16 rondas**
+- ✔ Función F basada en **SHA-256**
+- ✔ Modo **CTR (Counter Mode)** seguro y moderno  
+- ✔ Derivación de clave con **PBKDF2-HMAC-SHA256**
+- ✔ Validación estricta para operar solo dentro de `/sandbox`
+- ✔ Soporte para cifrado con **contraseña** o con **clave maestra**
+- ✔ Archivo de cabecera temática: `ANIMEX1`  
+- ✔ Suite de **pruebas automáticas**:
+  - Integridad  
+  - Avalancha  
+  - Entropía
+
+---
+
+## ¿Qué es el algoritmo?
+
+El esquema es un cifrado simétrico basado en Feistel, donde cada bloque se divide en dos mitades.  
+El proyecto utiliza un modo CTR con la salida del cifrado de bloques Feistel para generar un **keystream**, el cual se XORea con el texto plano.
+
+---
+
+## Estructura del proyecto
+
+proyecto-cripto/
+│
+├── src/
+│ ├── cli.py
+│ ├── feistel_core.py
+│ ├── sandbox_guard.py
+│ └── escrow.py
+│
+├── sandbox/
+│ └── key.bin (se genera después del init)
+│
+├── escrow/
+│ └── recovery.enc (se genera después del escrow)
+│
+└── execution.log(Registro de las acciones realizadas)
+│
+└── README.md
+
+##  Instalación
+
+1. Tener Python 3.8 o superior.
+2. Instalar dependencias:
+	-pip install cryptography
+3. Ubicarse en el proyecto:
+	-cd proyecto-cripto
+4. Inicializar entorno:
+	-python -m src.cli init(Esto genera la llave maestras->sandbox/key.bin)
+
+##  Comandos disponibles
+
+###  Lista de comandos 
+	
+	-python -m src.cli (te despliega la lista de los comandos disponibles par el uso)
+
+###  Inicializar
+	-python -m src.cli init(Crea el sandbox y genera la clave maestra)
+
+###  Encriptar
+	
+	-En --imput pondremos el archivo txt que vamos a encriptar  y el --output el nombre del archivo final encriptado
+	
+	1-Con llave maestra después de usar el init
+	
+		-python -m src.cli encrypt --input sandbox/texto.txt --output sandbox/texto.enc
+
+	2-Con contraseña personalizada
+		
+		-python -m src.cli encrypt --input sandbox/texto.txt --output sandbox/texto.enc --password Naruto777
+
+###  Desencriptar
+
+	-En --imput pondremos el archivo txt que se va a desencriptar  y el --output el nombre del archivo final desencriptadp
+	
+	1- Si se encrypto con la contraseña maestra 
+	
+		-python -m src.cli decrypt --input sandbox/texto.enc --output sandbox/texto_recuperado.txt
+	
+	2- Si se uso una contraseña personalizada 
+	
+		-python -m src.cli decrypt --input sandbox/texto.enc --output sandbox/texto2.txt --password Naruto777
+
+##  Cabecera de los archivo cifrado
+
+Cada archivo cifrado inicia con:
+	
+	-ANIMEX1 (Esto identifica el formato personalizado del proyecto.) esto se puede modificar según la necesidad es solo un toque personalizado y una manera de ver si es un archivo creado por el cifrador o no 
+
+##  Tecnologías utilizadas
+
+- Python 3  
+- SHA-256  
+- PBKDF2-HMAC  
+- AES-GCM para escrow  
+- Feistel custom  
+- CTR Stream XOR  
+
+---
+
+##  Licencia
+
+Uso académico y experimental. No utilizar en producción real.
+
+##  Nota final
+
+Este proyecto está diseñado para aprender conceptos criptográficos reales, pero con un toque estilizado.  
+Si quieres agregar interfaz gráfica, más modos, o integrar hashes/análisis extra, puedo ayudarte.

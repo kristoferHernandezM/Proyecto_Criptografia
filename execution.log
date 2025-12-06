@@ -1,0 +1,22 @@
+[2025-12-05 00:00:00] Proyecto inicializado. sandbox/key.bin creado. escrow/recovery.enc creado.\n[2025-12-05 16:03:24] init: key stored at C:\proyecto-cripto\sandbox\key.bin
+[2025-12-05 16:07:35] ABORT: The app only operates inside C:\proyecto-cripto\sandbox
+[2025-12-05 16:09:11] encrypt: C:\proyecto-cripto\sandbox\mensaje.txt -> C:\proyecto-cripto\sandbox\mensaje.enc
+[2025-12-05 16:10:04] encrypt: C:\proyecto-cripto\sandbox\mensaje.txt -> C:\proyecto-cripto\sandbox\mensaje.enc
+[2025-12-05 16:11:09] decrypt: C:\proyecto-cripto\sandbox\mensaje.enc -> C:\proyecto-cripto\sandbox\mensaje_dec.txt
+[2025-12-05 20:05:25] encrypt: C:\proyecto-cripto\sandbox\mensaje.txt -> C:\proyecto-cripto\sandbox\mensaje.enc
+[2025-12-05 20:08:53] encrypt: C:\proyecto-cripto\sandbox\mensaje.txt -> C:\proyecto-cripto\sandbox\mensaje.enc
+[2025-12-05 20:12:36] encrypt: C:\proyecto-cripto\sandbox\mensaje.txt -> C:\proyecto-cripto\sandbox\mensaje.enc
+[2025-12-05 20:24:20] Inicialización completa: clave guardada en C:\proyecto-cripto\sandbox\key.bin
+[2025-12-05 20:25:44] Encriptado exitoso: C:\proyecto-cripto\sandbox\test.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-05 20:27:19] Encriptado exitoso: C:\proyecto-cripto\sandbox\test.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-05 20:27:41] ERROR: Formato del archivo inválido o corrupto.
+[2025-12-05 20:32:08] Encriptado exitoso: C:\proyecto-cripto\sandbox\test.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-05 20:32:44] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-05 20:33:12] Encriptado exitoso: C:\proyecto-cripto\sandbox\test.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-05 20:33:18] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-05 20:33:43] ERROR: Archivo de entrada no encontrado.
+[2025-12-05 21:16:09] Iniciando pruebas automáticas...
+[2025-12-05 21:16:09] Prueba de integridad: EXITOSA
+[2025-12-05 21:16:09] Prueba de avalancha: 1 bits diferentes de 12480
+[2025-12-05 21:16:09] Entropía del cifrado: 7.8541 bits por byte
+[2025-12-05 21:16:09] Pruebas finalizadas.
