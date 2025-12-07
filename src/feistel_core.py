@@ -51,7 +51,7 @@ def encrypt_block(block: bytes, master_key: bytes) -> bytes:
         newR = bytes(a ^ b for a, b in zip(L, F))
         L, R = newL, newR
 
-    return R + L
+    return L + R
 
 
 def decrypt_block(block: bytes, master_key: bytes) -> bytes:
@@ -69,7 +69,7 @@ def decrypt_block(block: bytes, master_key: bytes) -> bytes:
         newL = R
         R, L = newR, newL
 
-    return L + R
+    return R + L
 
 
 # ---------------------------------------------------------

@@ -20,3 +20,55 @@
 [2025-12-05 21:16:09] Prueba de avalancha: 1 bits diferentes de 12480
 [2025-12-05 21:16:09] Entropía del cifrado: 7.8541 bits por byte
 [2025-12-05 21:16:09] Pruebas finalizadas.
+[2025-12-06 14:31:38] Iniciando pruebas automáticas...
+[2025-12-06 14:31:38] Prueba de integridad: EXITOSA
+[2025-12-06 14:31:38] Prueba de avalancha: 1 bits diferentes de 12480
+[2025-12-06 14:31:38] Entropía del cifrado: 7.8779 bits por byte
+[2025-12-06 14:31:38] Pruebas finalizadas.
+[2025-12-06 14:42:11] ABORTAR: La aplicación solo puede operar dentro de C:\proyecto-cripto\sandbox
+[2025-12-06 14:49:23] ABORTAR: La aplicación solo puede operar dentro de C:\proyecto-cripto\sandbox
+[2025-12-06 14:51:20] ABORTAR: La aplicación solo puede operar dentro de C:\proyecto-cripto\sandbox
+[2025-12-06 14:52:07] ABORTAR: La aplicación solo puede operar dentro de C:\proyecto-cripto\sandbox
+[2025-12-06 14:52:28] ABORTAR: La aplicación solo puede operar dentro de C:\proyecto-cripto\sandbox
+[2025-12-06 15:24:35] Inicialización completa: clave guardada en C:\proyecto-cripto\sandbox\key.bin
+[2025-12-06 15:25:01] Encriptado exitoso: C:\proyecto-cripto\sandbox\prueba.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-06 15:25:22] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 15:39:12] Inicialización completa: clave guardada en C:\proyecto-cripto\sandbox\key.bin
+[2025-12-06 15:41:18] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 15:42:16] Encriptado exitoso: C:\proyecto-cripto\sandbox\prueba.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-06 15:42:22] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 15:43:01] Encriptado exitoso: C:\proyecto-cripto\sandbox\prueba.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-06 15:43:31] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 15:44:43] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 15:46:08] Encriptado exitoso: C:\proyecto-cripto\sandbox\prueba.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-06 15:46:14] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 15:48:53] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 15:51:57] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 15:52:44] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 15:54:35] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 15:57:02] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 15:57:08] Encriptado exitoso: C:\proyecto-cripto\sandbox\prueba.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-06 15:57:13] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 15:59:40] Inicialización completa: clave guardada en C:\proyecto-cripto\sandbox\key.bin
+[2025-12-06 15:59:49] Encriptado exitoso: C:\proyecto-cripto\sandbox\prueba.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-06 15:59:56] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 16:00:35] Inicialización completa: clave guardada en C:\proyecto-cripto\sandbox\key.bin
+[2025-12-06 16:00:43] Encriptado exitoso: C:\proyecto-cripto\sandbox\prueba.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-06 16:01:06] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 16:02:13] Encriptado exitoso: C:\proyecto-cripto\sandbox\prueba.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-06 16:02:19] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 16:13:05] Encriptado exitoso: C:\proyecto-cripto\sandbox\prueba.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-06 16:13:10] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 16:16:33] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 16:16:53] Encriptado exitoso: C:\proyecto-cripto\sandbox\prueba.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-06 16:18:05] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 16:18:16] Encriptado exitoso: C:\proyecto-cripto\sandbox\prueba.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-06 16:18:36] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-06 16:20:52] Inicialización completa: clave guardada en C:\proyecto-cripto\sandbox\key.bin
+[2025-12-06 16:21:03] Encriptado exitoso: C:\proyecto-cripto\sandbox\prueba.txt → C:\proyecto-cripto\sandbox\out.enc
+[2025-12-06 16:21:12] Desencriptado exitoso: C:\proyecto-cripto\sandbox\out.enc → C:\proyecto-cripto\sandbox\ok.txt
+[2025-12-07 15:12:37] Iniciando pruebas automáticas...
+[2025-12-07 15:12:37] Prueba de integridad: EXITOSA
+[2025-12-07 15:12:37] Prueba de avalancha: 1 bits diferentes de 12480
+[2025-12-07 15:12:37] Entropía del cifrado: 7.8639 bits por byte
+[2025-12-07 15:12:37] Pruebas finalizadas.
