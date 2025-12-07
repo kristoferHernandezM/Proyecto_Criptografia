@@ -38,6 +38,14 @@ proyecto-cripto/
 │ ├── sandbox_guard.py
 │ └── escrow.py
 │
+├── tests/
+│ ├── test_avalancha.py
+│ ├── test_cli_encrypt.py
+│ ├── test_entropy.py
+│ ├── test_feistel_block.py
+│ ├── test_feistel_ctr.py
+│ └── test_integridad.py
+│ 
 ├── sandbox/
 │ └── key.bin (se genera después del init)
 │
@@ -45,14 +53,15 @@ proyecto-cripto/
 │ └── recovery.enc (se genera después del escrow)
 │
 └── execution.log(Registro de las acciones realizadas)
-│
 └── README.md
+└── reporte-html
 
 ##  Instalación
 
 1. Tener Python 3.8 o superior.
 2. Instalar dependencias:
 	-pip install cryptography
+	-pip install pytest
 3. Ubicarse en el proyecto:
 	-cd proyecto-cripto
 4. Inicializar entorno:
@@ -65,7 +74,7 @@ proyecto-cripto/
 	-python -m src.cli (te despliega la lista de los comandos disponibles par el uso)
 
 ###  Inicializar
-	-python -m src.cli init(Crea el sandbox y genera la clave maestra)
+	-python -m src.cli init
 
 ###  Encriptar
 	
