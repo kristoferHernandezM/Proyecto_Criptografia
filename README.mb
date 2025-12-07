@@ -91,6 +91,21 @@ proyecto-cripto/
 	
 		-python -m src.cli decrypt --input sandbox/texto.enc --output sandbox/texto2.txt --password Naruto777
 
+### pruebas
+
+	Para correr las pruebas se usa el comando 
+
+		-python -m pytest
+
+	Si quieres hacerlas unitarias seria usando el comando 		
+
+		-python -m pytest tests/test_avalancha.py(Poniendo la ruta especifica del archivo)
+
+	Para crear el reporte.html
+
+		-python -m pytest --html=report.html --self-contained-html
+
+
 ##  Cabecera de los archivo cifrado
 
 Cada archivo cifrado inicia con:
