@@ -1,1 +1,0 @@
-# Informe Práctico\n\n(Agregar resultados de pruebas aquí)
